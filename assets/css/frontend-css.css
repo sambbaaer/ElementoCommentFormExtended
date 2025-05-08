@@ -1,0 +1,130 @@
+/**
+ * Elementor Comment Form Extended Styles
+ */
+
+.elementor-comment-form-wrapper {
+    margin-bottom: 30px;
+}
+
+.elementor-comment-form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.elementor-comment-form-field {
+    margin-bottom: 15px;
+}
+
+.elementor-comment-form-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.elementor-comment-form-field input,
+.elementor-comment-form-field textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.elementor-comment-form-field input:focus,
+.elementor-comment-form-field textarea:focus {
+    border-color: #818a91;
+    outline: none;
+}
+
+.elementor-comment-form-field textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.elementor-comment-form-field.elementor-error input,
+.elementor-comment-form-field.elementor-error textarea {
+    border-color: #d9534f;
+}
+
+.elementor-comment-form-error {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.elementor-comment-form-cookies {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.elementor-comment-form-cookies input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.elementor-comment-form-cookies label {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.elementor-comment-form-submit {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #818a91;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.elementor-comment-form-submit:hover {
+    background-color: #686d74;
+}
+
+.elementor-comment-form-submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.elementor-comment-form-message {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: none;
+}
+
+.elementor-comment-form-message.success {
+    display: block;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+.elementor-comment-form-message.error {
+    display: block;
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 767px) {
+    .elementor-comment-form-title {
+        font-size: 20px;
+    }
+    
+    .elementor-comment-form-submit {
+        width: 100%;
+    }
+}
