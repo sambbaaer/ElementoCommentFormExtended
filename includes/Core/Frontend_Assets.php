@@ -39,6 +39,10 @@ class Frontend_Assets {
         
         return false;
     }
+    return false;
+}
+
+    /**
      * Konstruktor
      */
     public function __construct() {
